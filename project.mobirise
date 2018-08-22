@@ -51,7 +51,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 89,
+    "uniqCompNum": 91,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/abstraktglassbannermain-128x85.png",
@@ -1116,15 +1116,13 @@
             }
           },
           "_name": "map1",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Карта\" name=\"googleMap\" place-id=\"ChIJy6NwEs7N1EARAMxqvk5yGIc\" value=\"ABSTRAKTGLASS\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
-          "_anchor": "map1-2g",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "r1rScq7E1p",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Карта\" name=\"googleMap\" place-id=\"ChIJy6NwEs7N1EARAMxqvk5yGIc\" value=\"abstraktglass\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_cid": "r1rTviFxyL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "map1-2i"
         },
         {
           "_styles": {
