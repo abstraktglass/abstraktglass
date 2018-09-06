@@ -71,7 +71,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 194,
+    "uniqCompNum": 196,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/ag-3.png",
@@ -490,13 +490,13 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Логотип\" name=\"showLogo\">\n        <input type=\"range\" title=\"Размер\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Бренд\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Пункты меню\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Выбрать цвет\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Липкое меню\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Гамбургер-меню\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Прозрачное меню\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Цвет гамбургера\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#header2-4t\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        \n                        О НАС</a>\n                </li><li class=\"nav-item dropdown open\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html#gallery1-5b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">\n                        \n                        СТЕКЛО</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">СКИНАЛИ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">СТЕКЛЯННЫЕ ПЕРЕГОРОДКИ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">СТЕКЛЯННЫЕ ИЗДЕЛИЯ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">ВИТРАЖИ<br></a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">\n                        \n                        ЗЕРКАЛА</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">ЗЕРКАЛА СМОТРОВЫЕ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">ЗЕРКАЛА С ПОДСВЕТКОЙ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">ФАЦЕТНЫЕ ПОЛОТНА</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">\n                        \n                        МДФ</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">КОМОДЫ</a><a class=\"text-white dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">НАСТЕННЫЕ ПАНЕЛИ</a><a class=\"text-white dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">МЕБЕЛЬНЫЕ ФАСАДЫ</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        \n                        ДВЕРИ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        \n                        КОНТАКТЫ</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\">тест</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Логотип\" name=\"showLogo\">\n        <input type=\"range\" title=\"Размер\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Бренд\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Пункты меню\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Выбрать цвет\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Липкое меню\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Гамбургер-меню\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Прозрачное меню\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Цвет гамбургера\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-5\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#header2-4t\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        \n                        О НАС</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html#gallery1-5b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">\n                        \n                        СТЕКЛО</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">СКИНАЛИ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">СТЕКЛЯННЫЕ ПЕРЕГОРОДКИ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">СТЕКЛЯННЫЕ ИЗДЕЛИЯ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-57\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">ВИТРАЖИ<br></a></div></li><li class=\"nav-item dropdown open\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">\n                        \n                        ЗЕРКАЛА</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">ЗЕРКАЛА СМОТРОВЫЕ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">ЗЕРКАЛА С ПОДСВЕТКОЙ</a><a class=\"text-white dropdown-item\" href=\"index.html#image3-58\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">ФАЦЕТНЫЕ ПОЛОТНА</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">\n                        \n                        МДФ</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">КОМОДЫ</a><a class=\"text-white dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">НАСТЕННЫЕ ПАНЕЛИ</a><a class=\"text-white dropdown-item\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\" aria-expanded=\"false\">МЕБЕЛЬНЫЕ ФАСАДЫ</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        \n                        ДВЕРИ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        \n                        КОНТАКТЫ</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\">тест</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "r2RiCKFCbQ",
+          "_anchor": "menu1-55",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-55"
+          "_params": {}
         },
         {
           "_styles": {
@@ -515,7 +515,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/abstraktglassbannermain-1-1920x1280.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">О НАС &nbsp; &nbsp; &nbsp;КОНТАКТЫ &nbsp; &nbsp; &nbsp; СТЕКЛО &nbsp; &nbsp; &nbsp;ЗЕРКАЛО &nbsp; &nbsp; &nbsp;МДФ &nbsp; &nbsp; &nbsp;ПЕЧАТЬ &nbsp; &nbsp; &nbsp;МЕБЕЛЬ &nbsp; &nbsp; &nbsp;ДВЕРИ &nbsp; &nbsp; &nbsp;ПОЛЫ\n &nbsp; &nbsp; &nbsp;</span><div><span style=\"font-weight: normal;\"><br></span></div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"><br></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;&nbsp;<a href=\"index.html#header2-4t\">О НАС</a> &nbsp; &nbsp;<a href=\"index.html#header2-52\">КОНТАКТЫ</a> &nbsp; &nbsp;<a href=\"index.html#header2-3z\">СТЕКЛО</a> &nbsp; &nbsp;<a href=\"index.html#header2-4k\">ЗЕРКАЛО</a> &nbsp; &nbsp;МДФ &nbsp; &nbsp;ДВЕРИ<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery1-5b\" data-app-placeholder=\"Введите Текст\">CТЕКЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#image3-58\" data-app-placeholder=\"Введите Текст\">ЗЕРКАЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#header2-4t\" data-app-placeholder=\"Введите Текст\">МДФ</a>   <a class=\"btn btn-md btn-white-outline\" href=\"index.html#info3-1x\" data-app-placeholder=\"Введите Текст\">РОЗДВИЖНЫЕ СИСТЕМЫ</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/abstraktglassbannermain-1-1920x1280.jpg\" parallax selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">О НАС &nbsp; &nbsp; &nbsp;КОНТАКТЫ &nbsp; &nbsp; &nbsp; СТЕКЛО &nbsp; &nbsp; &nbsp;ЗЕРКАЛО &nbsp; &nbsp; &nbsp;МДФ &nbsp; &nbsp; &nbsp;ПЕЧАТЬ &nbsp; &nbsp; &nbsp;МЕБЕЛЬ &nbsp; &nbsp; &nbsp;ДВЕРИ &nbsp; &nbsp; &nbsp;ПОЛЫ\n &nbsp; &nbsp; &nbsp;</span><div><span style=\"font-weight: normal;\"><br></span></div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"><br></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;&nbsp;<a href=\"index.html#header2-4t\">О НАС</a> &nbsp; &nbsp;<a href=\"index.html#header2-52\">КОНТАКТЫ</a> &nbsp; &nbsp;<a href=\"index.html#header2-3z\">СТЕКЛО</a> &nbsp; &nbsp;<a href=\"index.html#header2-4k\">ЗЕРКАЛО</a> &nbsp; &nbsp;МДФ &nbsp; &nbsp;ДВЕРИ<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery1-5f\" data-app-placeholder=\"Введите Текст\">CТЕКЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#gallery1-5b\" data-app-placeholder=\"Введите Текст\">ЗЕРКАЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#header2-4t\" data-app-placeholder=\"Введите Текст\">МДФ</a>   <a class=\"btn btn-md btn-white-outline\" href=\"index.html#info3-1x\" data-app-placeholder=\"Введите Текст\">РОЗДВИЖНЫЕ СИСТЕМЫ</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_anchor": "header2-4z",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -598,8 +598,186 @@
             }
           },
           "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_anchor": "gallery1-5f",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "r2S25OlwdJ",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Отзывчивый",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery01.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01-748x748.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Творческий",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02-748x748.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Анимированный",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery03.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery03-750x750.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": false
+              },
+              {
+                "tags": "Потрясающие",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04-750x750.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Введите заголовок здесь",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/abstraktglassbannermain-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">СТЕКЛО :</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"><br></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Стекло – важнейший для архитектуры и дизайна материал. Качественные и эстетические характеристики стекол значительно влияют на особенности эксплуатации стеклянных или остекленных поверхностей. <br>Наша компания располагает разнообразным ассортимента стекол, отличающихся способами производства, внешним видом и свойствами. \n<br>\n<br>КУПИТЬ СТЕКЛО :\n<br><br>Купить стекло или зеркала, готовые стеклянные фартуки для кухни - скинали, заказать стекло повышенной прочности, можно в любое удобное для вас время. Мы предлагаем не только изготовление, но и установку изделия из стекла в помещении. Весь комплекс работ, начиная с проектирования, включая изготовление и заканчивая установкой - наши стеклянные конструкции \"под ключ\" сослужат вам долгую службу. \n<br>\n<br>Промышленное производство листового стекла появилось в начале прошлого века. Сначала это был метод Фуко, позже, начиная с 60-х годов и до сегодняшнего времени, повсеместно используется флоат-метод, когда из плавильной печи плоская стеклянная лента подается в ванну с расплавленным оловом для последующего охлаждения и отжига. \n<br><br>СТЕКЛО НА ЗАКАЗ :<br><br>Купить стекло – исключительно просто. Надо лишь обратиться в салон-магазин \"Abstrakt Glass\" или ознакомиться с ассортиментом и ценами в интернет магазине стекла, либо по телефону (096) 1063990. \n<br>\n<br>Изделия из стекла делают нашу повседневную жизнь светлее, легче, воздушней. При этом они абсолютно надежны, прочны и долговечны. \n<br>\n<br>Сегодня из стекла можно сделать вещи, о которых ещё несколько десятков лет назад нельзя было и помечтать. \n<br><br>НАПРИМЕР :\n<br><br>стеклянные фасады с регулируемой прозрачностью, позволяющие экономить на энергоносителях; \n<br>стеклянные ограждения газонов, площадей, улиц; \n<br>светопрозрачные конструкции для внутренних интерьеров и наружного оформления; \n<br>витрины и раздвижные трансформирующиеся перегородки; \n<br>стеклянная мебель, двери \n<br>стеклянные полы.\n<br>\n<br>Производственный центр \"Абстракт Гласс\" предлагает любые виды стекла и варианты его обработки. Для тех, кто хочет сделать свою недвижимость не только удобной, функциональной, но, что немаловажно, современной и стильной, прелагается стекло на заказ. Наши дизайнеры внимательно следят за модой и моментально осваивают производство новинок. <br>\n<br>ЛИСТОВОЕ СТЕКЛО :<br><br>Промышленное производство листового стекла появилось в начале прошлого века. Сначала это был метод Фуко, позже, начиная с 60-х годов и до сегодняшнего времени, повсеместно используется флоат-метод, когда из плавильной печи плоская стеклянная лента подается в ванну с расплавленным оловом для последующего охлаждения и отжига. \n<br>\n<br>Листовое стекло – это общепринятое название продукта, так как первоначально любое стекло имеет форму листа, и только после дополнительной обработки приобретает самые причудливые формы, фактуры, цвета и размеры. \n<br>\n<br>Высокопроизводительный флоат-метод позволяет получить полированное стекло высокого качества, без оптических дефектов со стабильной толщиной от 2 до 25 мм. \n<br>\n<br>Современные способы производства листового стекла позволяют получить продукт с заданными свойствами: \n<br>\n<br>теплосбережение; \n<br>регулируемый диапазон спектрального излучения; \n<br>высокая механическая прочность. \n<br>\n<br>Мы производим закаленное стекло для фасадов, моллированное и цветное стекло. В зависимости от того, для каких целей будет использоваться стекло, выбираются его характеристики. \n<br>\n<br>ЗЕРКАЛЬНОЕ СТЕКЛО :\n<br><br>Закаленное стекло - это стекло, которое подверглось специальной температурной обработке. Особенностями такого стекла является то, что оно более устойчиво к ударам и перепадам температуры. В случае механического разрушения стекло разрушается не на крупные и острые куски, а на безопасные осколки с тупыми краями размером от 5 мм до 20 мм. Закаливают стекло путем нагревания до высокой температуры с последующим резким охлаждением. \n<br>\n<br>Закалка стекла обеспечивает безопасность находящихся рядом со стеклом людей и увеличивает прочность стекла. Прочность закаленного стекла на изгиб и на удар в 5-7 раз больше прочности обычного стекла. \n<br>\n<br>Следует различать закаленное стекло и жаростойкое стекло, которое держит температуру до 700 градусов и используется преимущественно в каминах, духовых шкафах, электрических и газовых плитах. \n<br>\n<br>КУПИТЬ ЗЕРКАЛЬНОЕ СТЕКЛО :\n<br><br>Закаленным стеклом является любое листовое стекло, подвергнутое определенной термической обработке: быстрому нагреванию и последующему быстрому охлаждению. При быстром охлаждении размягченного стекла сначала затвердевают наружные слои, в то время как во внутренних слоях сохраняется высокая температура. Поверхностные холодные слои препятствуют свободному сокращению внутренних участков и при дальнейшем охлаждении наружные слои сжимаются, а внутренние растягиваются. В результате в стекле образуется система напряжений, обеспечивающая высокую механическую и термическую прочность закаленного стекла. Главные характеристики закаленного стекла– это повышенная прочность и безопасность. Прочность закаленного стекла на изгиб и на удар в 5-6 раз больше прочности обычного стекла. Закаленное стекло стойко к резким температурным перепадам, которые достигают порядка 200ºC. Мебель из закаленного стекла выдерживает выстрел в упор из стрелкового оружия. \n<br>\n<br>Закаленное стекло может использоваться в лестничных конструкциях, так как выдерживает вес человека. Закаленное стекло - это безопасное стекло. Когда нагрузка на закаленное стекло превышает предел его прочности, оно распадается на мелкие округлые осколки. Осколки разрушенного закаленного стекла не причиняют вреда человеку даже при падении с больших высот. Закаленное стекло применяют в тех случаях, когда требуется повышенная механическая прочность при сравнительно небольшом весе, относительно высокая термостойкость и безопасность в случае разрушения. Благодаря этим качествам в последние десятилетия закаленное стекло активно используется в архитектуре и элементах интерьера. Закаленное стекло прекрасно подходит для изготовления стеклянных лестничных пролетов, дверей, перегородок, ограждений, стекла для каминов; светофильтров; стекла для различных приборов и аппаратов; остекления детских учреждений, психиатрических больниц, парников, остекление железнодорожных вагонов, кабин подъемных кранов, тракторов, судов морского и речного флота и других видов транспорта. роткие сроки изготовят любое изделие из закаленного стекла, наличествующее в ассортиментной линейке компании.\n<br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html#image3-3d\" data-app-placeholder=\"Введите Текст\">CТЕКЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#image3-3c\" data-app-placeholder=\"Введите Текст\">ЗЕРККАЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#info3-1w\" data-app-placeholder=\"Введите Текст\">МДФ</a>   <a class=\"btn btn-md btn-white-outline\" href=\"index.html#info3-1x\" data-app-placeholder=\"Введите Текст\">КОНТАКТЫ</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#slider1-25\" data-app-placeholder=\"Введите Текст\">О НАС</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "header2-3z",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "r2AMPRucAM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center"
+            }
+          },
+          "_name": "gallery1",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Градиентное наложение\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Наложение  Цвет 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Галерея\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\" mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "r2RQGs9QXc",
+          "_anchor": "gallery1-5b",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -666,80 +844,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery1-5b"
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "H1": {
-              "text-align": "left"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "left",
-              "color": "#ffffff"
-            }
-          },
-          "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/abstraktglassbannermain-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">СТЕКЛО :</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"><br></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Стекло – важнейший для архитектуры и дизайна материал. Качественные и эстетические характеристики стекол значительно влияют на особенности эксплуатации стеклянных или остекленных поверхностей. <br>Наша компания располагает разнообразным ассортимента стекол, отличающихся способами производства, внешним видом и свойствами. \n<br>\n<br>КУПИТЬ СТЕКЛО :\n<br><br>Купить стекло или зеркала, готовые стеклянные фартуки для кухни - скинали, заказать стекло повышенной прочности, можно в любое удобное для вас время. Мы предлагаем не только изготовление, но и установку изделия из стекла в помещении. Весь комплекс работ, начиная с проектирования, включая изготовление и заканчивая установкой - наши стеклянные конструкции \"под ключ\" сослужат вам долгую службу. \n<br>\n<br>Промышленное производство листового стекла появилось в начале прошлого века. Сначала это был метод Фуко, позже, начиная с 60-х годов и до сегодняшнего времени, повсеместно используется флоат-метод, когда из плавильной печи плоская стеклянная лента подается в ванну с расплавленным оловом для последующего охлаждения и отжига. \n<br><br>СТЕКЛО НА ЗАКАЗ :<br><br>Купить стекло – исключительно просто. Надо лишь обратиться в салон-магазин \"Abstrakt Glass\" или ознакомиться с ассортиментом и ценами в интернет магазине стекла, либо по телефону (096) 1063990. \n<br>\n<br>Изделия из стекла делают нашу повседневную жизнь светлее, легче, воздушней. При этом они абсолютно надежны, прочны и долговечны. \n<br>\n<br>Сегодня из стекла можно сделать вещи, о которых ещё несколько десятков лет назад нельзя было и помечтать. \n<br><br>НАПРИМЕР :\n<br><br>стеклянные фасады с регулируемой прозрачностью, позволяющие экономить на энергоносителях; \n<br>стеклянные ограждения газонов, площадей, улиц; \n<br>светопрозрачные конструкции для внутренних интерьеров и наружного оформления; \n<br>витрины и раздвижные трансформирующиеся перегородки; \n<br>стеклянная мебель, двери \n<br>стеклянные полы.\n<br>\n<br>Производственный центр \"Абстракт Гласс\" предлагает любые виды стекла и варианты его обработки. Для тех, кто хочет сделать свою недвижимость не только удобной, функциональной, но, что немаловажно, современной и стильной, прелагается стекло на заказ. Наши дизайнеры внимательно следят за модой и моментально осваивают производство новинок. <br>\n<br>ЛИСТОВОЕ СТЕКЛО :<br><br>Промышленное производство листового стекла появилось в начале прошлого века. Сначала это был метод Фуко, позже, начиная с 60-х годов и до сегодняшнего времени, повсеместно используется флоат-метод, когда из плавильной печи плоская стеклянная лента подается в ванну с расплавленным оловом для последующего охлаждения и отжига. \n<br>\n<br>Листовое стекло – это общепринятое название продукта, так как первоначально любое стекло имеет форму листа, и только после дополнительной обработки приобретает самые причудливые формы, фактуры, цвета и размеры. \n<br>\n<br>Высокопроизводительный флоат-метод позволяет получить полированное стекло высокого качества, без оптических дефектов со стабильной толщиной от 2 до 25 мм. \n<br>\n<br>Современные способы производства листового стекла позволяют получить продукт с заданными свойствами: \n<br>\n<br>теплосбережение; \n<br>регулируемый диапазон спектрального излучения; \n<br>высокая механическая прочность. \n<br>\n<br>Мы производим закаленное стекло для фасадов, моллированное и цветное стекло. В зависимости от того, для каких целей будет использоваться стекло, выбираются его характеристики. \n<br>\n<br>ЗЕРКАЛЬНОЕ СТЕКЛО :\n<br><br>Закаленное стекло - это стекло, которое подверглось специальной температурной обработке. Особенностями такого стекла является то, что оно более устойчиво к ударам и перепадам температуры. В случае механического разрушения стекло разрушается не на крупные и острые куски, а на безопасные осколки с тупыми краями размером от 5 мм до 20 мм. Закаливают стекло путем нагревания до высокой температуры с последующим резким охлаждением. \n<br>\n<br>Закалка стекла обеспечивает безопасность находящихся рядом со стеклом людей и увеличивает прочность стекла. Прочность закаленного стекла на изгиб и на удар в 5-7 раз больше прочности обычного стекла. \n<br>\n<br>Следует различать закаленное стекло и жаростойкое стекло, которое держит температуру до 700 градусов и используется преимущественно в каминах, духовых шкафах, электрических и газовых плитах. \n<br>\n<br>КУПИТЬ ЗЕРКАЛЬНОЕ СТЕКЛО :\n<br><br>Закаленным стеклом является любое листовое стекло, подвергнутое определенной термической обработке: быстрому нагреванию и последующему быстрому охлаждению. При быстром охлаждении размягченного стекла сначала затвердевают наружные слои, в то время как во внутренних слоях сохраняется высокая температура. Поверхностные холодные слои препятствуют свободному сокращению внутренних участков и при дальнейшем охлаждении наружные слои сжимаются, а внутренние растягиваются. В результате в стекле образуется система напряжений, обеспечивающая высокую механическую и термическую прочность закаленного стекла. Главные характеристики закаленного стекла– это повышенная прочность и безопасность. Прочность закаленного стекла на изгиб и на удар в 5-6 раз больше прочности обычного стекла. Закаленное стекло стойко к резким температурным перепадам, которые достигают порядка 200ºC. Мебель из закаленного стекла выдерживает выстрел в упор из стрелкового оружия. \n<br>\n<br>Закаленное стекло может использоваться в лестничных конструкциях, так как выдерживает вес человека. Закаленное стекло - это безопасное стекло. Когда нагрузка на закаленное стекло превышает предел его прочности, оно распадается на мелкие округлые осколки. Осколки разрушенного закаленного стекла не причиняют вреда человеку даже при падении с больших высот. Закаленное стекло применяют в тех случаях, когда требуется повышенная механическая прочность при сравнительно небольшом весе, относительно высокая термостойкость и безопасность в случае разрушения. Благодаря этим качествам в последние десятилетия закаленное стекло активно используется в архитектуре и элементах интерьера. Закаленное стекло прекрасно подходит для изготовления стеклянных лестничных пролетов, дверей, перегородок, ограждений, стекла для каминов; светофильтров; стекла для различных приборов и аппаратов; остекления детских учреждений, психиатрических больниц, парников, остекление железнодорожных вагонов, кабин подъемных кранов, тракторов, судов морского и речного флота и других видов транспорта. роткие сроки изготовят любое изделие из закаленного стекла, наличествующее в ассортиментной линейке компании.\n<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"index.html#image3-3d\" data-app-placeholder=\"Введите Текст\">CТЕКЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#image3-3c\" data-app-placeholder=\"Введите Текст\">ЗЕРККАЛО</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#info3-1w\" data-app-placeholder=\"Введите Текст\">МДФ</a>   <a class=\"btn btn-md btn-white-outline\" href=\"index.html#info3-1x\" data-app-placeholder=\"Введите Текст\">КОНТАКТЫ</a> <a class=\"btn btn-md btn-white-outline\" href=\"index.html#slider1-25\" data-app-placeholder=\"Введите Текст\">О НАС</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_anchor": "header2-3z",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "r2AMPRucAM",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when (@fullWidth = false)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "background": "@bgColor",
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(0deg, @color2, @bgColor)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "figcaption": {
-              "position": "relative",
-              "div": {
-                "position": "absolute",
-                "bottom": "0",
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "image3",
-          "_customHTML": "<section group=\"Images &amp; Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полная ширина\" name=\"fullWidth\">\n\n        <input type=\"range\" inline=\"\" title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline=\"\" title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\">        \n        \n        <input type=\"range\" inline=\"\" title=\"Ширина\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"85\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Градиент\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Цвет 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\" width=\"1400\" alt=\"Mobirise\" title=\"\">\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text=\"\" class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Создавайте потрясающие сайты!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
-          "_anchor": "image3-58",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "r2RlnX43LT",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          }
         },
         {
           "_styles": {
