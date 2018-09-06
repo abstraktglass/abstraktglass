@@ -1802,7 +1802,7 @@ body {
   background: transparent !important;
 }
 .cid-r2S25OlwdJ .mbr-gallery-item > div:hover:before {
-  opacity: 0.8 !important;
+  opacity: 1 !important;
 }
 .cid-r2S25OlwdJ .mbr-gallery-title {
   font-size: .9em;
@@ -1823,7 +1823,7 @@ body {
   z-index: -1;
   position: absolute;
   background: #000000 !important;
-  opacity: 0.8;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
