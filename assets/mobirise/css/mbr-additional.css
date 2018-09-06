@@ -1768,8 +1768,8 @@ body {
   text-align: center;
 }
 .cid-r2RQGs9QXc {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #000000;
 }
 .cid-r2RQGs9QXc .mbr-slider .carousel-control {
@@ -1794,7 +1794,6 @@ body {
   width: 100%;
   height: 100%;
   background: #000000;
-  background: linear-gradient(to left, #000000, #000000) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -1824,7 +1823,6 @@ body {
   z-index: -1;
   position: absolute;
   background: #000000 !important;
-  background: linear-gradient(to left, #000000, #000000) !important;
   opacity: 0.5;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
@@ -1833,7 +1831,7 @@ body {
   text-align: center;
 }
 .cid-r2AMPRucAM {
-  padding-top: 0px;
+  padding-top: 30px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/abstraktglassbannermain-1920x1280.jpg");
 }
