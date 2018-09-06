@@ -1767,55 +1767,74 @@ body {
 .cid-r2MaIPFiWZ H1 {
   text-align: center;
 }
-.cid-r2SbkkrAb3 {
-  padding-top: 60px;
+.cid-r2Siaa2UAj {
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #000000;
 }
-.cid-r2SbkkrAb3 .card-img {
-  background-color: #fff;
+.cid-r2Siaa2UAj .mbr-slider .carousel-control {
+  background: #1b1b1b;
 }
-.cid-r2SbkkrAb3 .card-box {
-  padding: 2rem;
+.cid-r2Siaa2UAj .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
 }
-.cid-r2SbkkrAb3 h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
+.cid-r2Siaa2UAj .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
 }
-.cid-r2SbkkrAb3 p {
-  text-align: left;
+.cid-r2Siaa2UAj .mbr-slider .modal-body .close {
+  background: #1b1b1b;
 }
-.cid-r2SbkkrAb3 .mbr-text {
-  color: #767676;
-}
-.cid-r2SbkkrAb3 .card-wrapper {
+.cid-r2Siaa2UAj .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
+  background: #000000;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
 }
-.cid-r2SbkkrAb3 .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
+.cid-r2Siaa2UAj .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
 }
-@media (min-width: 992px) {
-  .cid-r2SbkkrAb3 .my-col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 15px;
-  }
+.cid-r2Siaa2UAj .mbr-gallery-item > div:hover:before {
+  opacity: 0.5 !important;
 }
-.cid-r2SbkkrAb3 .card-title {
+.cid-r2Siaa2UAj .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-r2Siaa2UAj .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #000000 !important;
+  opacity: 0.5;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-r2Siaa2UAj .mbr-gallery-item > div > span {
   text-align: center;
-  color: #ffffff;
 }
 .cid-r2AMPRucAM {
-  padding-top: 30px;
-  padding-bottom: 0px;
   background-image: url("../../../assets/images/abstraktglassbannermain-1920x1280.jpg");
 }
 .cid-r2AMPRucAM H1 {
-  text-align: center;
+  text-align: left;
 }
 .cid-r2AMPRucAM .mbr-text,
 .cid-r2AMPRucAM .mbr-section-btn {
