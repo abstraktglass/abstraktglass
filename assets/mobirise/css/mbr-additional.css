@@ -1374,12 +1374,12 @@ body {
 }
 .cid-r2XRUggxZp .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2XRUggxZp .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2XRUggxZp a {
   font-style: normal;
@@ -1463,7 +1463,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2XRUggxZp .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1761,13 +1761,13 @@ body {
 .cid-r2XRUggxZp .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-r2X3kdwoNl {
+.cid-r2XWUIGHJO {
   background-image: url("../../../assets/images/abstraktglassbannermain-1-1920x12801.jpg");
 }
 .cid-r2GPRuMqOl {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/abstraktglassbannermain-1-1920x1280.jpg");
+  background-color: #020f2d;
 }
 .cid-r2GPRuMqOl H1 {
   text-align: left;
@@ -1782,7 +1782,7 @@ body {
 .cid-r2X5hoSLvL {
   padding-top: 75px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2X5hoSLvL .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1805,8 +1805,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
-  background: linear-gradient(to left, #000000, #000000) !important;
+  background: #02162d;
+  background: linear-gradient(to left, #02162d, #000000) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -1835,8 +1835,8 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #000000 !important;
-  background: linear-gradient(to left, #000000, #000000) !important;
+  background: #02162d !important;
+  background: linear-gradient(to left, #02162d, #000000) !important;
   opacity: 0.8;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
@@ -1847,7 +1847,7 @@ body {
 .cid-r2SZ0EOg6b {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2SZ0EOg6b H2 {
   text-align: left;
@@ -1855,7 +1855,7 @@ body {
 .cid-r2XLnTCmcx {
   padding-top: 75px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2XLnTCmcx .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1918,7 +1918,7 @@ body {
 .cid-r2T6lfSE1M {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2T6lfSE1M H2 {
   text-align: left;
@@ -1926,7 +1926,7 @@ body {
 .cid-r2XLriTItl {
   padding-top: 75px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2XLriTItl .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -2004,7 +2004,7 @@ body {
 .cid-r2XLtKeCcJ {
   padding-top: 75px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2XLtKeCcJ .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -2027,7 +2027,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #020f2d;
+  background: linear-gradient(to left, #020f2d, #000000) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2056,7 +2057,8 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #000000 !important;
+  background: #020f2d !important;
+  background: linear-gradient(to left, #020f2d, #000000) !important;
   opacity: 0.8;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
@@ -2067,7 +2069,7 @@ body {
 .cid-r2T99mNuci {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2T99mNuci H2 {
   text-align: left;
@@ -2078,7 +2080,7 @@ body {
 .cid-r2XLvuaHb0 {
   padding-top: 75px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2XLvuaHb0 .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -2154,7 +2156,7 @@ body {
 .cid-r2XPcNWeJq {
   padding-top: 75px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2XPcNWeJq .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -2217,7 +2219,7 @@ body {
 .cid-r2T8INLAJy {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #000000;
+  background-color: #020f2d;
 }
 .cid-r2T8INLAJy H2 {
   text-align: left;
@@ -2267,14 +2269,17 @@ body {
 .cid-r2GG0uJAjc .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+.cid-r2XWV7JfJM {
+  background-image: url("../../../assets/images/abstraktglassbannermain-1-1920x12801.jpg");
+}
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -2358,7 +2363,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2658,12 +2663,12 @@ body {
 }
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -2747,7 +2752,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -3047,12 +3052,12 @@ body {
 }
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -3136,7 +3141,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -3436,12 +3441,12 @@ body {
 }
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -3525,7 +3530,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -3825,12 +3830,12 @@ body {
 }
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -3914,7 +3919,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -4214,12 +4219,12 @@ body {
 }
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -4303,7 +4308,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -4603,12 +4608,12 @@ body {
 }
 .cid-r2RiCKFCbQ .navbar {
   padding: .5rem 0;
-  background: #000000;
+  background: #020f2d;
   transition: none;
   min-height: 77px;
 }
 .cid-r2RiCKFCbQ .navbar-dropdown.bg-color.transparent.opened {
-  background: #000000;
+  background: #020f2d;
 }
 .cid-r2RiCKFCbQ a {
   font-style: normal;
@@ -4692,7 +4697,7 @@ body {
   padding-bottom: 0;
 }
 .cid-r2RiCKFCbQ .dropdown .dropdown-menu {
-  background: #000000;
+  background: #020f2d;
   display: none;
   position: absolute;
   min-width: 5rem;
