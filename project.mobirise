@@ -53,7 +53,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/salon-icin-ayna-modelleri-9-597x500.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -64,7 +64,7 @@
                 "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.8",
+                "overlayOpacity": "0.5",
                 "overlayColor": "#000000"
               },
               {
@@ -85,18 +85,18 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/led-oval-21-800x600.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
-                "showTitle": false,
+                "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "IMAGE SLIDE",
+                "title": "<span style=\"font-weight: normal;\">ЗЕРКАЛА</span>",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "overlayOpacity": "0.7",
+                "overlayOpacity": "0.5",
                 "overlayColor": "#000000"
               }
             ]
@@ -106,7 +106,14 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-0"
+          "_anchor": "slider-0",
+          "_styles": {
+            "SPAN": {
+              "color": "#ffffff",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
         }
       ]
     }
