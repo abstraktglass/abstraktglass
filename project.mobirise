@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "page2.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "4.8.1"
   },
   "pages": {
@@ -561,7 +561,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Page 1",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -875,7 +875,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "fullwidth text and arrow to next",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1070,6 +1070,47 @@
             ]
           },
           "_anchor": "gallery3-b"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "Web Maker Description",
+        "title": "txt",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#232323"
+            },
+            "H1": {
+              "text-align": "left",
+              "color": "#232323"
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"@PROJECT_PATH@/assets/images/24-1-1278x924.jpg\" selected>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#7fd9fc\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Цвет 2\" value=\"#6576aa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Стекло&nbsp;</h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><b>Изделия из стекла:\n</b><br>\n<br>Для удовлетворения любых Ваших потребностей компания имеет в наличии стекло различной толщины (от 3мм до 12 мм), прозрачности (как стекло обычное прозрачное, так и стекло «диамант») и цветовой гаммы (обычное, тонированное «бронза» и тонированное «графит»)\n<br><b><br>Обработка стекла:\n</b><br>\n<br>Компания обладает возможностями сделать как прямолинейную, так и криволинейную обработку изделий по периметру (полирование), сделать отверстия диаметром от 5 до 70мм, осуществить зенкерование (обработка отверстия изнутри), моллирование (сгибание стекла), УФО склейку стеклянных изделий, изготовить фацет шириной от 10 до 40мм, сделать гравировку, произвести закалку стекла.\n<br><br><b>Изготовление скинали:\n</b><br>\n<br>Современное направление в декорировании стен, особенно на кухнях, или в помещениях, где требуется частая влажная уборка стен с применением бытовой химии. Скинали – идеальное решение для замены рабочей поверхности (кухонного фартука) с привычной всем керамической плитки на индивидуальную панель, изготовленную из стекла. Именно наши специалисты помогут выбрать Вам идеальное решение как в цветовой гамме, так и предоставят огромный выбор изображений для УФО печати. А так же дадут индивидуальную консультацию по правильности размещения скинали, уходу за каленым стеклом и разработают макет с выбранным изображением.\n<br><br><b>Декоративная обработка стекла:\n</b><br>\n<br>Только у нас широчайший выбор разнообразных видов декоративной обработки стекла - матирование полотна (стекло сатин), художественное матирование (нанесение различных рисунков), покраска полотна как в один цвет, так и художественная покраска в один, два цвета, в том числе использование цвета «металлик», нанесение матового лака, прямая УФО печать на стекле, изготовление фьюзинга (плавленого стекла)<br>\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">ПОДРОБНЕЕ</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_anchor": "header5-c",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "r408MFUdhw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
