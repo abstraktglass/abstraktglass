@@ -2060,3 +2060,17 @@ body {
 .cid-r3ZAbHr6vC .mbr-overlay ~ .container-slide {
   z-index: auto;
 }
+.cid-r4012gd0zU {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/24-1-1278x924.jpg");
+}
+.cid-r4012gd0zU .mbr-text,
+.cid-r4012gd0zU .mbr-section-btn {
+  text-align: left;
+  color: #232323;
+}
+.cid-r4012gd0zU H1 {
+  text-align: left;
+  color: #232323;
+}
