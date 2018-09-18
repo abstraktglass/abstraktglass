@@ -18,7 +18,7 @@
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
-        "isRtl": true
+        "isRtl": false
       },
       "additionalSetColors": [
         "#000a39"
@@ -27,7 +27,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 5,
+    "uniqCompNum": 12,
     "versionPublish": "4.8.1"
   },
   "pages": {
@@ -53,7 +53,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/salon-icin-ayna-modelleri-9-597x500.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -69,7 +69,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/facet-6-1200x675.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -114,6 +114,21 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           }
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "ABSTRAKTGLASS",
+              "placeId": "ChIJy6NwEs7N1EARAMxqvk5yGIc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-6"
         }
       ]
     }
