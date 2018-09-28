@@ -2236,75 +2236,17 @@ body {
 .cid-r4PvXRe8B1 .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-r4WbdkcROh {
-  padding-top: 15px;
+.cid-r4WxCJILAA {
+  padding-top: 30px;
   padding-bottom: 15px;
-  background-color: #031738;
+  background: linear-gradient(0deg, #031738, #031738);
 }
-.cid-r4WbdkcROh .row-links {
-  width: 100%;
-  justify-content: center;
+.cid-r4WxCJILAA .mbr-iconfont-social {
+  font-size: 32px;
+  color: #149dcc;
 }
-.cid-r4WbdkcROh .social-row {
-  width: 100%;
-  justify-content: center;
-}
-.cid-r4WbdkcROh .media-container-row {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.cid-r4WbdkcROh .media-container-row .foot-menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 0;
-}
-.cid-r4WbdkcROh .media-container-row .foot-menu li {
-  padding: 0 1rem 1rem 1rem;
-}
-.cid-r4WbdkcROh .media-container-row .foot-menu li p {
-  margin: 0;
-}
-.cid-r4WbdkcROh .media-container-row .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-}
-.cid-r4WbdkcROh .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-.cid-r4WbdkcROh .media-container-row .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-r4WbdkcROh .media-container-row .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-r4WbdkcROh .media-container-row .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-r4WbdkcROh .media-container-row .social-list {
-    justify-content: center;
-    -webkit-justify-content: center;
-  }
-}
-.cid-r4WbdkcROh .media-container-row .row-copirayt {
-  word-break: break-word;
-  width: 100%;
-}
-.cid-r4WbdkcROh .media-container-row .row-copirayt p {
-  width: 100%;
+.cid-r4WxCJILAA .social-list a:focus {
+  text-decoration: none;
 }
 .cid-r4REIwK6Hs .navbar {
   padding: .5rem 0;
