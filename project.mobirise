@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "abstraktglass",
-    "currentPage": "skinali.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1264,10 +1264,10 @@
         }
       ]
     },
-    "skinali.html": {
+    "page2.html": {
       "settings": {
-        "meta_descr": "Site Maker Description",
-        "title": "skinali",
+        "meta_descr": "\"Кухонный фартук\" - это не просто защита стены от воды и жира, это один из главных инструментов в создании неповторимого дизайна Вашей кухни.\nМы поможем вам разобраться в это вопросе и изготовить ИМЕННО ТО ЧТО ВЫ ХОТЕЛИ!!",
+        "title": "\"Кухонный фартук\" скинали от компании Абстракт Гласс на Хохловых 11/2",
         "order": 1
       },
       "components": [
