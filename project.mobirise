@@ -888,7 +888,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"skinali.html#header11-29\">СКИНАЛИ</a> <br>",
+                "caption": "<a href=\"skinali.html#header11-29\" class=\"text-white\">СКИНАЛИ</a> <br>",
                 "active": false
               },
               {
