@@ -36,7 +36,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 117,
+    "uniqCompNum": 119,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/ag-3-128x20-1.png",
@@ -1059,7 +1059,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ЗЕРКАЛА С ПОДСВЕТКОЙ",
                 "active": false
               },
               {
@@ -1072,7 +1072,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ЗЕРКАЛА СМОТРОВЫЕ",
                 "active": false
               },
               {
@@ -1085,7 +1085,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ЗЕРКАЛЬНАЯ ПЛИТКА",
                 "active": false
               },
               {
@@ -1098,7 +1098,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ИЗДЕЛИЯ ИЗ ЗЕРКАЛ",
                 "active": true
               }
             ]
@@ -1230,7 +1230,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "КОМОДЫ",
                 "active": false
               },
               {
@@ -1243,7 +1243,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ПАНЕЛИ",
                 "active": false
               },
               {
@@ -1256,7 +1256,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ФАСАДЫ",
                 "active": false
               },
               {
@@ -1269,7 +1269,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ИЗДЕЛИЯ ИЗ МДФ",
                 "active": true
               }
             ]
@@ -1401,7 +1401,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ПЕЧАТЬ НА СТЕКЛЕ",
                 "active": false
               },
               {
@@ -1414,7 +1414,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ПЕЧАТЬ НА ЗЕРКАЛЕ",
                 "active": false
               },
               {
@@ -1427,7 +1427,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ПЕЧАТЬ НА МДФ",
                 "active": false
               },
               {
@@ -1440,7 +1440,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Введите заголовок здесь",
+                "caption": "ПЕЧАТЬ СУВЕНИРОВ",
                 "active": true
               }
             ]
