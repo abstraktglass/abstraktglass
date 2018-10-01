@@ -2375,7 +2375,7 @@ body {
   text-align: center;
 }
 .cid-r4WV3WiSCX {
-  padding-top: 90px;
+  padding-top: 30px;
   padding-bottom: 0px;
   background: linear-gradient(45deg, #031738, #031738);
 }
@@ -2450,10 +2450,26 @@ body {
 .cid-r4WXpAwwrq .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-r4X03eB8ho {
+.cid-r5f4Gqz0kg {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background: linear-gradient(0deg, #031738, #031738);
+}
+.cid-r5f4Gqz0kg .mbr-iconfont-social {
+  font-size: 32px;
+  color: #149dcc;
+}
+.cid-r5f4Gqz0kg .social-list a:focus {
+  text-decoration: none;
+}
+.cid-r5f4HflRbt {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #031738;
+}
+.cid-r5f4HflRbt .media-container-row .mbr-text {
+  text-align: center;
+  color: #149dcc;
 }
 .cid-r4REIwK6Hs .navbar {
   padding: .5rem 0;
