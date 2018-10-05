@@ -2040,7 +2040,7 @@ body {
   width: 100%;
   height: 100%;
   background: #031738;
-  background: linear-gradient(to left, #031738, #000000) !important;
+  background: linear-gradient(to left, #031738, #061e45) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2049,7 +2049,7 @@ body {
   background: transparent !important;
 }
 .cid-r4WIJuJ1iC .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+  opacity: 1 !important;
 }
 .cid-r4WIJuJ1iC .mbr-gallery-title {
   font-size: .9em;
@@ -2070,8 +2070,8 @@ body {
   z-index: -1;
   position: absolute;
   background: #031738 !important;
-  background: linear-gradient(to left, #031738, #000000) !important;
-  opacity: 0.5;
+  background: linear-gradient(to left, #031738, #061e45) !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2113,8 +2113,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
-  background: linear-gradient(to left, #554346, #031738) !important;
+  background: #061e45;
+  background: linear-gradient(to left, #061e45, #031738) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2123,7 +2123,7 @@ body {
   background: transparent !important;
 }
 .cid-r4WJ78TzJX .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+  opacity: 1 !important;
 }
 .cid-r4WJ78TzJX .mbr-gallery-title {
   font-size: .9em;
@@ -2143,9 +2143,9 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
-  background: linear-gradient(to left, #554346, #031738) !important;
-  opacity: 0.5;
+  background: #061e45 !important;
+  background: linear-gradient(to left, #061e45, #031738) !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2188,7 +2188,7 @@ body {
   width: 100%;
   height: 100%;
   background: #031738;
-  background: linear-gradient(to left, #031738, #000000) !important;
+  background: linear-gradient(to left, #031738, #061e45) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2197,7 +2197,7 @@ body {
   background: transparent !important;
 }
 .cid-r4WJ8siusZ .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+  opacity: 1 !important;
 }
 .cid-r4WJ8siusZ .mbr-gallery-title {
   font-size: .9em;
@@ -2218,8 +2218,8 @@ body {
   z-index: -1;
   position: absolute;
   background: #031738 !important;
-  background: linear-gradient(to left, #031738, #000000) !important;
-  opacity: 0.5;
+  background: linear-gradient(to left, #031738, #061e45) !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2262,7 +2262,7 @@ body {
   width: 100%;
   height: 100%;
   background: #031738;
-  background: linear-gradient(to left, #031738, #000000) !important;
+  background: linear-gradient(to left, #031738, #061e45) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2271,7 +2271,7 @@ body {
   background: transparent !important;
 }
 .cid-r4WJ9UrNYK .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+  opacity: 1 !important;
 }
 .cid-r4WJ9UrNYK .mbr-gallery-title {
   font-size: .9em;
@@ -2292,8 +2292,8 @@ body {
   z-index: -1;
   position: absolute;
   background: #031738 !important;
-  background: linear-gradient(to left, #031738, #000000) !important;
-  opacity: 0.5;
+  background: linear-gradient(to left, #031738, #061e45) !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2302,7 +2302,7 @@ body {
 }
 .cid-r5ecgXF3x8 {
   padding-top: 60px;
-  padding-bottom: 75px;
+  padding-bottom: 45px;
   background: linear-gradient(45deg, #031738, #031738);
 }
 .cid-r5ecgXF3x8 .mbr-text,
@@ -2311,7 +2311,7 @@ body {
 }
 .cid-r5egT2iYK8 {
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 105px;
   background-color: #031738;
 }
 .cid-r5egT2iYK8 .mbr-slider .carousel-control {
@@ -2336,7 +2336,7 @@ body {
   width: 100%;
   height: 100%;
   background: #031738;
-  background: linear-gradient(to left, #031738, #000000) !important;
+  background: linear-gradient(to left, #031738, #061e45) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2345,7 +2345,7 @@ body {
   background: transparent !important;
 }
 .cid-r5egT2iYK8 .mbr-gallery-item > div:hover:before {
-  opacity: 0.5 !important;
+  opacity: 1 !important;
 }
 .cid-r5egT2iYK8 .mbr-gallery-title {
   font-size: .9em;
@@ -2366,8 +2366,8 @@ body {
   z-index: -1;
   position: absolute;
   background: #031738 !important;
-  background: linear-gradient(to left, #031738, #000000) !important;
-  opacity: 0.5;
+  background: linear-gradient(to left, #031738, #061e45) !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2375,7 +2375,7 @@ body {
   text-align: center;
 }
 .cid-r4WV3WiSCX {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background: linear-gradient(45deg, #031738, #031738);
 }
@@ -2384,7 +2384,7 @@ body {
   text-align: center;
 }
 .cid-r4Pu1Dtk8B {
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #031738;
 }
@@ -2450,14 +2450,14 @@ body {
 .cid-r4WXpAwwrq .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-r5wDLjziFu {
+.cid-r5CzKGKdzd {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #031738;
 }
-.cid-r5wDLjziFu .media-container-row .mbr-text {
+.cid-r5CzKGKdzd .media-container-row .mbr-text {
   text-align: center;
-  color: #149dcc;
+  color: #c1c1c1;
 }
 .cid-r4REIwK6Hs .navbar {
   padding: .5rem 0;
@@ -3082,13 +3082,13 @@ body {
   text-decoration: none;
 }
 .cid-r4WClIYUwt {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #2e2e2e;
 }
 .cid-r4WClIYUwt .media-container-row .mbr-text {
   text-align: center;
-  color: #149dcc;
+  color: #c1c1c1;
 }
 .cid-r5v5Mwb6Lt .navbar {
   padding: .5rem 0;
@@ -4124,8 +4124,8 @@ body {
   display: none;
 }
 .cid-r5v5MLZ1WH {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   background-color: #031738;
 }
 .cid-r5v5MLZ1WH .row-links {
@@ -4797,13 +4797,13 @@ body {
   display: none;
 }
 .cid-r5AkJH9y6D {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #031738;
 }
 .cid-r5AkJH9y6D .media-container-row .mbr-text {
   text-align: center;
-  color: #149dcc;
+  color: #c1c1c1;
 }
 .cid-r5ABX0ID7W .navbar {
   padding: .5rem 0;
@@ -5212,8 +5212,8 @@ body {
   color: #149dcc;
 }
 .cid-r5ABX5Hi0K {
-  padding-top: 75px;
-  padding-bottom: 0px;
+  padding-top: 90px;
+  padding-bottom: 60px;
   background: linear-gradient(45deg, #031738, #031738);
 }
 .cid-r5ABX5Hi0K .mbr-text,
@@ -5364,18 +5364,18 @@ body {
 .cid-r5ABX9Haoc .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-r5ABXammeX {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-r5CsE1lqZc {
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #031738;
 }
-.cid-r5ABXammeX .media-container-row .mbr-text {
+.cid-r5CsE1lqZc .media-container-row .mbr-text {
   text-align: center;
-  color: #149dcc;
+  color: #c1c1c1;
 }
 .cid-r5AZ9lnxCU {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   background-color: #031738;
 }
 .cid-r5AZ9lnxCU .row-links {
