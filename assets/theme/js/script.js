@@ -22,7 +22,7 @@
         function initReveal() {
             if ($this.outerHeight() <= $win.outerHeight()) {
                 $this.css({
-                    'z-index': -999,
+                    'z-index': 1030,
                     position: 'fixed',
                     bottom: 0
                 });
